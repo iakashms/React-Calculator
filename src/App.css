@@ -1,0 +1,50 @@
+.App {
+  /* text-align: center;
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px; */
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid green;
+  margin: auto; */
+}
+
+.calculator {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* border: 3px solid green; */
+  width: 35%;
+  height: 480px;
+}
+
+.cursor{
+  width: 100%;
+  /* border: 2px solid rgb(20, 110, 228) */
+}
+
+.historyandclear{
+  height: 10%;
+  width: 100%;
+  display: flex;
+  /* border: 2px solid rgb(228, 20, 141) */
+}
+
+.history{
+  width: 74%;
+  /* border: 2px solid rgb(228, 20, 141) */
+}
+
+.content-buttons{
+  width: 25%;
+  height: 55pt;
+  /* background-color:white; */
+  font-size: 17pt;
+}
+
+.center{
+  text-align: center;
+}
